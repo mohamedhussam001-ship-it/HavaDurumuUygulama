@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBlue"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Information"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkBlue"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"/>
+
+    <EditText
+        android:id="@+id/edtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City Name"/>
+
+    <Button
+        android:id="@+id/btnGetWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔍 Get Weather"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnSaveFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⭐ Save Favorite"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/darkBlue"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather data will appear here"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/lightBlue"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☁ Weather App"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkBlue"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="☁ Check Weather"
+        android:textSize="18sp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⭐ Favorite Cities"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About App"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/darkBlue"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
